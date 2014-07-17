@@ -1,9 +1,9 @@
-package br.com.erp.pattern.util.manager;
+package br.com.ifitness.pattern.util.manager;
 
 import java.io.Serializable;
 import java.util.List;
 
-import br.com.erp.pattern.util.manager.exception.ManagementException;
+import br.com.ifitness.pattern.util.manager.exception.ManagementException;
 
 public interface Manager<T, PK extends Serializable> {
 

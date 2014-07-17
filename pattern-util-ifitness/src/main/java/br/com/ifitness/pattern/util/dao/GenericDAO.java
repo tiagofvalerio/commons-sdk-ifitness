@@ -1,9 +1,9 @@
-package br.com.erp.pattern.util.dao;
+package br.com.ifitness.pattern.util.dao;
 
 import java.io.Serializable;
 import java.util.List;
 
-import br.com.erp.pattern.util.dao.exception.DAOException;
+import br.com.ifitness.pattern.util.dao.exception.DAOException;
 /**
  * Interface de abstracao do Banco de Dados
  * GenericDAO pattern

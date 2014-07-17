@@ -1,4 +1,4 @@
-package br.com.erp.pattern.util.manager.exception;
+package br.com.ifitness.pattern.util.manager.exception;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

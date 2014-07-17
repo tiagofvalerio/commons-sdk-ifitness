@@ -3,23 +3,23 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>br.com.brutus</groupId>
-		<artifactId>commonsErp</artifactId>
+		<groupId>br.com.ifitness</groupId>
+		<artifactId>commonsIfitness</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>pattern-util-erp</artifactId>
-	<name>pattern-util-erp</name>
+	<artifactId>pattern-util-ifitness</artifactId>
+	<name>pattern-util-ifitness</name>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.hibernate.javax.persistence</groupId>
-			<artifactId>hibernate-jpa-2.0-api</artifactId>
+			<artifactId>hibernate-jpa-2.1-api</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>javax.enterprise</groupId>
 			<artifactId>cdi-api</artifactId>
-			<version>1.1.EDR1.2</version>
+			<version>1.2</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -40,8 +40,8 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<configuration>
-						<source>1.6</source>
-						<target>1.6</target>
+						<source>1.7</source>
+						<target>1.7</target>
 					</configuration>
 				</plugin>
 			</plugins>

@@ -1,6 +1,6 @@
-package br.com.erp.pattern.util.manager.transaction;
+package br.com.ifitness.pattern.util.manager.transaction;
 
-import br.com.erp.pattern.util.manager.exception.ManagerTransactionException;
+import br.com.ifitness.pattern.util.manager.exception.ManagerTransactionException;
 
 public interface TransactionManager {
 

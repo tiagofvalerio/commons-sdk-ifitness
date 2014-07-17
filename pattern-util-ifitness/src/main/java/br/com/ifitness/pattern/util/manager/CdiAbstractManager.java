@@ -1,4 +1,4 @@
-package br.com.erp.pattern.util.manager;
+package br.com.ifitness.pattern.util.manager;
 
 import java.io.Serializable;
 import java.util.List;
@@ -13,10 +13,10 @@ import javax.transaction.UserTransaction;
 
 import org.apache.log4j.Logger;
 
-import br.com.erp.pattern.util.dao.GenericDAO;
-import br.com.erp.pattern.util.dao.exception.DAOException;
-import br.com.erp.pattern.util.manager.exception.ManagementException;
-import br.com.erp.pattern.util.manager.exception.ManagerTransactionException;
+import br.com.ifitness.pattern.util.dao.GenericDAO;
+import br.com.ifitness.pattern.util.dao.exception.DAOException;
+import br.com.ifitness.pattern.util.manager.exception.ManagementException;
+import br.com.ifitness.pattern.util.manager.exception.ManagerTransactionException;
 
 public class CdiAbstractManager<T, PK extends Serializable> implements
         Manager<T, PK>, Serializable {

@@ -1,4 +1,4 @@
-package br.com.erp.pattern.util.dao.jpa;
+package br.com.ifitness.pattern.util.dao.jpa;
 
 import java.io.Serializable;
 import java.util.List;
@@ -12,8 +12,8 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-import br.com.erp.pattern.util.dao.GenericDAO;
-import br.com.erp.pattern.util.dao.exception.DAOException;
+import br.com.ifitness.pattern.util.dao.GenericDAO;
+import br.com.ifitness.pattern.util.dao.exception.DAOException;
 
 /**
  * Implementação GenericDAOPattern para o JPA

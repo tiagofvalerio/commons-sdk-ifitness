@@ -1,4 +1,4 @@
-package br.com.erp.pattern.util.dao.exception;
+package br.com.ifitness.pattern.util.dao.exception;
 
 public class DAOException extends Exception {
 
