@@ -12,6 +12,14 @@
 	<modules>
 		<module>pattern-util-ifitness</module>
 	</modules>
+	
+	<!-- Configurações do Github -->
+		<scm>
+			<connection>scm:git:git@github.com:tiagofvalerio/commons-sdk-ifitness.git</connection>
+			<url>scm:git:git@github.com:tiagofvalerio/commons-sdk-ifitness.git</url>
+			<developerConnection>scm:git:git@github.com:tiagofvalerio/commons-sdk-ifitness.git</developerConnection>
+		    <tag>HEAD</tag>
+	  </scm>
 
 	<dependencyManagement>
 		<dependencies>

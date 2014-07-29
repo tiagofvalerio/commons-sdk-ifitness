@@ -23,7 +23,7 @@ public class CdiAbstractManager<T, PK extends Serializable> implements
 
 	private static final long serialVersionUID = -4145795719342553580L;
 	
-	private static final Logger logger = Logger.getLogger(AbstractManager.class);
+	private static final Logger logger = Logger.getLogger(CdiAbstractManager.class);
     private GenericDAO<T,PK> dao;
 
     @Resource

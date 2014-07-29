@@ -19,7 +19,7 @@ public class CdiGenericDAO<T,PK extends Serializable> implements GenericDAO<T,PK
 
 	private static final long serialVersionUID = 5618998374986134581L;
 	
-	private static Logger logger = Logger.getLogger("GenericDAOJPA");
+	private static Logger logger = Logger.getLogger("CdiGenericDAO");
     private Class<T> classType;
     private EntityManager em;
 
