@@ -11,6 +11,7 @@
 
 	<modules>
 		<module>pattern-util-ifitness</module>
+		<module>assessment-util-ifitness</module>
 	</modules>
 	
 	<!-- Configurações do Github -->
